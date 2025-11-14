@@ -7,7 +7,7 @@ struct Node {
     Node* next;
 };
 
-// function to insert a new node at the front (just for testing)
+// function to insert a new node at the front
 void push_front(Node*& head, int value) {
     Node* newNode = new Node;
     newNode->data = value;
